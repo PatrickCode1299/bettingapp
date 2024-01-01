@@ -1,0 +1,37 @@
+body{
+	background-color:black;
+	font-family:arial;
+}
+.pointer{
+	cursor:pointer;
+}
+nav{
+	color:white;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:center;
+	align-items:center;
+}
+.owner-flex-form{
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+	flex-direction:row;
+
+}
+.owner-flex-form div{
+	flex:1;
+}
+#button-div{
+	margin-top:20px;
+	padding-left:5px;
+}
+.cancel{
+	flex:1;
+	background:red;
+	padding:2px 5px;
+	color:white;
+	font-weight:bold;
+	margin-left:auto;
+}

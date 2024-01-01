@@ -1,0 +1,2259 @@
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	text-decoration:none;
+	color:white;
+}
+.how-to-play{
+	margin-top:40px;
+
+}
+.how-to-play > h3{
+	text-align:center;
+	font-weight:bold;
+}
+.disabled{
+	pointer-events:none;
+	opacity:0.8;
+	color:red;
+}
+button{
+	outline:none;
+}
+.footer{
+bottom:0px;
+max-width:100%;
+padding-top:20px;
+padding-right:10px;
+padding-left:10px;
+padding-bottom:20px;
+background-color:forestgreen;
+margin-top:150px;
+display:flex;
+justify-content:flex-start;
+flex-direction:row;
+}
+@media screen and (min-width:320px) {
+	nav{
+	border-radius:none;
+	/*box-shadow:2px 2px 2px black; **/
+	background-image:linear-gradient(to right,indigo,green);
+}
+html body{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-image:linear-gradient(to right, purple,green);
+}
+.super-info-header{
+	background-color:green;
+	max-width:100%;
+	margin-top:50px;
+}
+.reg-container{
+position:fixed;
+background:green;
+opacity:1;
+left:0px;
+z-index:1;
+top:0px;
+display:none;
+right:0px;
+height:100%;
+width:100%;
+padding-top:10px;
+padding-bottom:10px;
+}
+.log-container{
+	position:fixed;
+background:green;
+opacity:1;
+left:0px;
+z-index:1;
+top:0px;
+display:none;
+right:0px;
+height:100%;
+width:100%;
+padding-top:10px;
+padding-bottom:10px;
+}
+.register-box{
+	width:90%;
+	margin:0 auto;
+	margin-top:50px;
+	padding-top:20px;
+}
+#signupid{
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.cancel-signup-btn{
+	font-weight:bold;
+	font-size:35px;
+	margin-left:0px;
+	float:left;
+	margin-top:50px;
+	color:white;
+	cursor:pointer;
+	
+}
+.super-info-header > ul  > li{
+	color:white;
+	cursor:pointer;
+	text-decoration:none;
+}
+.super-info-header > ul > a{
+	text-decoration:none;
+	color:white;
+}
+.super-info-header > ul{
+	padding-left:5px;
+}
+.main-wrapper{
+	display:block;
+}
+.first-container{
+	margin-top:0px;
+	display:flex;
+	padding:0px;
+	margin-left:0px;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	position:relative;
+}
+.fund-account-container{
+	background-color:white;
+	border-radius:5px;
+	color:black;
+}
+.long-list{
+	background-image:linear-gradient(to right, indigo,green);
+	height:100%;
+	width:200px;
+	position:fixed;
+	top:30px;
+	margin-top:50px;
+	left:0px;
+	box-sizing:border-box;
+	padding-left:4px;
+	padding-right:4px;
+}
+.long-list > ul > li{
+	cursor:pointer;
+	background-image:linear-gradient(to right, indigo,green);
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-top:20px;
+	text-transform:uppercase;
+}
+.every-form-label{
+	color:white;
+	font-size:13px;
+	margin-left:4px;
+	font-family:helvetica;
+	margin-bottom:0px;
+}
+.form-containers{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:nowrap;
+   padding-top:10px;
+   padding-bottom:10px;
+   width:100%;
+   padding-left:5px;
+   padding-right:5px;
+}
+.login-form{
+	padding-left:0px;
+	background-color:indigo;
+	flex:1;
+	margin-right:10px;
+}
+.login-form h4{
+	background-color:grey;
+	margin-top:0px;
+	width:100%;
+	padding:2px 2px;
+	padding-left:5px;
+}
+.register-form{
+	padding-left:0px;
+	flex:1;
+	margin-left:10px;
+	background-color:green;
+}
+.register-form h4{
+	background-color:grey;
+	margin-top:0px;
+	padding:2px 2px;
+	padding-left:5px;
+	width:100%;
+}
+.every-form-btn{
+	margin-top:10px;
+	font-weight:bold;
+
+}
+.login-header{
+	color:white;
+	font-weight:bold;
+}
+.bubble-menu{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:50%;
+	padding-left:10px;
+	margin:0 auto;
+}
+.bubble-menu > button{
+	flex:1;
+	margin-left:2px;
+}
+.booking-wrapper{
+	display:none;
+}
+.booking-grid{
+	display:block;
+}
+.booking-grid > .category-bar{
+	background-image:linear-gradient(to right, purple,white);
+	flex:1;
+}
+.booking-grid > .book-holder{
+	background-color:purple;
+		padding-left:10px;
+flex:2;
+}
+.booking-grid > .coupon-detail{
+	flex:1;
+    background-color:whitesmoke;
+}
+.book-holder > h4{
+	    margin-top:100px;
+	    color:white;
+}
+.category-bar h4{
+	color:white;
+	font-weight:bold;
+}
+.category-bar > ul > li{
+	background-image:linear-gradient(to right, purple,white);
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	margin-left:0px;
+}
+.gamelist{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+
+}
+.gamelist > li{
+   flex:1;
+   color:white;
+   margin-top:5px;
+}
+.titlelist{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+.titlelist li{
+    flex:1;
+    color:white;
+    font-weight:bold;
+}
+.category-bar > h3{
+	color:white;
+}
+.server-heading{
+	margin-top:0px;
+	padding:0px;
+	background-image:linear-gradient(to right,purple,white);
+	padding-top:4px;
+	padding-bottom:4px;
+
+}
+.ticketarea-text{
+	width:50%;
+	margin-left:5px;
+	vertical-align:top;
+	height:30px;
+}
+.coupon-detail > form > h5{
+	margin-left:5px;
+}
+.betlists{
+	padding:2px 2px;
+	margin-top:5px;
+	height:auto;
+	display:block;
+}
+.betlists > li{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:flex-start;
+	list-style:none;
+	background-color:#333;
+	padding:2px 2px;
+	height:auto;
+	margin-top:2px;
+	width:100%;
+	font-weight:bold;
+	font-size:12px;
+	color:white;
+}
+.betlists >li >span{
+	flex:1;
+}
+.reg-section{
+	margin:0 auto;
+	width:50%;
+	background-color:indigo;
+	border-radius:5px;
+	border:2px solid white;
+	height:auto;
+    padding-bottom:5px;
+	margin-top:100px;
+}
+.reg-section > form{
+	padding-left:5px;
+	padding-right:5px;
+}
+.reg-title{
+	width:100%;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:5px;
+	background-color:white;
+	color:black;
+	font-weight:bold;
+	margin-top:0px;
+}
+.every-reg-btn{
+	font-weight:bold;
+	margin-bottom:4px;
+	margin-top:0px;
+}
+.cancel{
+	font-size:35px;
+	margin-top:0px;
+	margin-left:auto;
+	color:black;
+	cursor:pointer;
+	margin-right:10px;
+	order:2;
+}
+#responserror{
+position:fixed;
+	z-index: 1;
+	background-color:red;
+	border-radius:5px;
+	padding:5px 5px;
+	color:white;
+	font-weight:bold;
+	left:20px;
+	right:20px;
+	text-align:center;
+	display:none;
+}
+.big-cancel-button{
+	font-size:70px;
+    color:red;
+    cursor:pointer;
+    font-weight:bold;
+}
+.login-infos-holder{
+	display:flex;
+	justify-content:flex-start;
+	flex-direction:row;
+	padding:5px 5px;
+	flex-wrap:nowrap;
+}
+.login-infos-holder li{
+	flex-grow:1;
+	flex-shrink:0;
+	flex-basis:20px;
+	text-align:center;
+	list-style:none;
+	margin-left:10px;
+	font-size:12px;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+}
+.login-infos-holder li:hover{
+	background-color:forestgreen;
+	opacity:0.8;
+}
+.site-title{
+color:white;
+margin-right:auto;
+font-size:18px;
+font-weight:bold;
+margin-left:5px;
+margin-top:5px;
+margin-bottom:5px;
+}
+.cancel-res{
+	font-size:40px;
+	color:red;
+	float:left;
+}
+.game-success-response{
+	width:50%;
+	display:none;
+	background-color:white;
+	border-radius:10px;
+	padding:10px 10px;
+	height:200px;
+	left:20px;
+	right:20px;
+	color:black;
+	font-weight:bold;
+	margin:0 auto;
+	position:fixed;
+	z-index:1;
+	top:50%;
+
+}
+#error{
+	position:fixed;
+	z-index: 1;
+	background-color:red;
+	border-radius:5px;
+	padding:5px 5px;
+	color:white;
+	font-weight:bold;
+	left:20px;
+	right:20px;
+	text-align:center;
+	display:none;
+}
+.bet-calc-holder{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:5px;
+}
+.bet-calc-holder button{
+	flex:1;
+	margin:2px 2px;
+	font-weight:bold;
+}
+.betting-service{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+
+}
+.betting-service button{
+	flex:1;
+}
+.odds-amount > li{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+	margin-top:4px;
+}
+.submit-bet-handler{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+    font-weight:bold;
+
+}
+.cancelevent{
+	width:20px;
+	height:auto;
+	padding:2px 5px;
+	color:red;
+	font-weight:bold;
+	margin-left:auto;
+	text-align:center;
+	cursor:pointer;
+	border-radius:20px;
+}
+#betting-container{
+	padding:0px;
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+	flex-direction:row;
+	align-items:flex-start;
+	margin-top:35px;
+	height:100%;
+}
+#betting-container > .list-infos{
+	height:400px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:200px;
+	border-radius:5px;
+	list-style:none;
+	background-image:linear-gradient(to right, purple,white);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	cursor:pointer;
+	flex-direction:column;
+
+
+}
+.list-infos > li{
+display:block;
+list-style:none;
+flex:1;
+ margin-top:10px;
+ color:white;
+ font-weight:bold;
+}
+.account-info{
+	background-color:purple;
+	flex:2;
+	display:none;
+	margin-top:10px;
+}
+.user-heading-info{
+	background-image:linear-gradient(to right,purple,white);
+	margin-top:0px;
+	box-sizing:border-box;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:5px;
+	padding-left:5px;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+.userdetails{
+	list-style:none;
+	text-align:center;
+	font-size:15px;
+	color:white;
+
+
+
+}
+.userdetails li{
+display:block;
+}
+.circle-img{
+	border-radius:50%;
+	border:2px solid white;
+	width:150px;
+	margin:0 auto;
+	margin-top:20px;
+	height:150px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:10px;
+	padding-top:20px;
+	padding-bottom:5px;
+}
+#flex-home-header{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+
+}
+#flex-home-header > li{
+	color:white;
+	flex:1;
+	margin-left:5px;
+	margin-right:10px;
+	font-size:12px;
+	list-style:none;
+	margin-top:12px;
+    font-weight:bold;
+    cursor:pointer;
+
+}
+.carousel-holder{
+	width:100%;
+	height:200px;
+}
+.coupon-and-details{
+	background-image:linear-gradient(to left, indigo,green);
+	height:100%;
+	width:250px;
+	position:fixed;
+	top:30px;
+	margin-top:30px;
+	right:0px;
+	box-sizing:border-box;
+	padding-left:4px;
+	padding-right:4px;
+}
+.result-clips{
+	background-color:white;
+	width:80%;
+	margin:0 auto;
+	margin-top:40px;
+	border-radius:10px;
+	height:200px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+
+}
+.register{
+	background:green;
+	opacity:0.8;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	height:100%;
+	width:100%;
+	color:white;
+}
+.site-info{
+	background:white;
+	color:black;
+	width:70%;
+	margin:0 auto;
+	height:800px;
+	color:white;
+    padding-left:0px;
+    padding-right:10px;
+    padding-top:0px;
+    padding-bottom:10px;
+}
+.today-top-hit > .header-text{
+	color:white;
+	font-family:tahoma;
+	background:green;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-top:0px;
+}
+.hotlist-label{
+display: flex;
+justify-content:flex-start;
+flex-direction:row;
+list-style:none;
+margin-left:0px;
+margin-top:5px;
+padding: 0px;
+
+}
+.hotlist-label > li{
+	flex: 1;
+	font-weight:bold;
+	font-family:tahoma;
+	align-self:center;
+}
+.hotlibtn{
+
+}
+.trending{
+	width:100%;
+	padding:5px 5px;
+	box-sizing:border-box;
+	margin:0 auto;
+	color:black;
+}
+.events-list{
+	flex-basis:20%;
+	flex-grow:-1;
+	flex-shrink:1;
+	background-image:linear-gradient(to right, indigo,green);
+	box-sizing:border-box;
+	padding-left:4px;
+	padding-right:4px;
+}
+.events-list > ul > li{
+	cursor:pointer;
+	background-image:linear-gradient(to right, indigo,green);
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-top:20px;
+	text-transform:uppercase;
+}
+.mainpageholder{
+	display:block;
+	width:100%;
+	color:white;
+
+}
+.content-holder{
+flex-basis:50%;
+	flex-grow:1;
+	flex-shrink:1;
+	background-color:white;
+	color:black;
+}
+.adverts-info{
+display:none;
+flex-basis:25%;
+	flex-grow:1;
+	flex-shrink:1;
+	background-image:linear-gradient(to right, indigo,green);
+	color:black;	
+}
+#headinglist{
+list-style:none;
+padding-top:10px;
+text-align:center;
+}
+#headinglist > li{
+display:inline;
+list-style:none;
+color:white;
+font-weight:bold;
+font-size:18px;
+margin-left:5px;
+}
+.ticketpaper{
+	padding-top:5px;
+	padding-bottom:5px;
+	width:100%;
+	height:100%;
+	border-radius:10px;
+	border:2px solid white;
+	background:lightgrey;
+	opacity:1;
+	position:fixed;
+	font-weight:400;
+	color:black;
+	overflow-y: scroll;
+	font-size:15px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	margin-top:15px;
+	z-index:1;
+	top:10px;
+	display:none;
+}
+.infohandler{
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+}
+.infohandler > li{
+	margin-top:10px;
+	font-family:tahoma;
+	list-style:none;
+}
+.flex-result{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-result > li{
+	flex: 1;
+	font-weight:bold;
+	font-family:tahoma;
+
+}
+
+}
+@media screen and (min-width:620px) { 
+	nav{
+	border-radius:none;
+	/*box-shadow:2px 2px 2px black; **/
+	background-image:linear-gradient(to right,indigo,green);
+}
+html body{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-image:linear-gradient(to right, purple,green);
+}
+.super-info-header{
+	background-color:green;
+	max-width:100%;
+	margin-top:50px;
+}
+.reg-container{
+position:fixed;
+background:green;
+opacity:1;
+left:0px;
+z-index:1;
+top:0px;
+display:none;
+right:0px;
+height:100%;
+width:100%;
+padding-top:10px;
+padding-bottom:10px;
+}
+.log-container{
+	position:fixed;
+background:green;
+opacity:1;
+left:0px;
+z-index:1;
+top:0px;
+display:none;
+right:0px;
+height:100%;
+width:100%;
+padding-top:10px;
+padding-bottom:10px;
+}
+.register-box{
+	width:50%;
+	margin:0 auto;
+	margin-top:50px;
+	padding-top:20px;
+}
+#signupid{
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.fund-account-container{
+	background-color:white;
+	border-radius:5px;
+	color:black;
+}
+.cancel-signup-btn{
+	font-weight:bold;
+	font-size:50px;
+	float:left;
+	margin-top:50px;
+	color:white;
+	cursor:pointer;
+	margin-left:30px;
+}
+.super-info-header > ul  > li{
+	color:white;
+	cursor:pointer;
+	text-decoration:none;
+}
+.super-info-header > ul > a{
+	text-decoration:none;
+	color:white;
+}
+.super-info-header > ul{
+	padding-left:5px;
+}
+.main-wrapper{
+	display:block;
+}
+.first-container{
+	margin-top:0px;
+	display:flex;
+	padding:0px;
+	margin-left:0px;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	position:relative;
+}
+.long-list{
+	background-image:linear-gradient(to right, indigo,green);
+	height:100%;
+	width:200px;
+	position:fixed;
+	top:30px;
+	margin-top:50px;
+	left:0px;
+	box-sizing:border-box;
+	padding-left:4px;
+	padding-right:4px;
+}
+.long-list > ul > li{
+	cursor:pointer;
+	background-image:linear-gradient(to right, indigo,green);
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-top:20px;
+	text-transform:uppercase;
+}
+.every-form-label{
+	color:white;
+	font-size:13px;
+	margin-left:4px;
+	font-family:helvetica;
+	margin-bottom:0px;
+}
+.form-containers{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:nowrap;
+   padding-top:10px;
+   padding-bottom:10px;
+   width:100%;
+   padding-left:5px;
+   padding-right:5px;
+}
+.login-form{
+	padding-left:0px;
+	background-color:indigo;
+	flex:1;
+	margin-right:10px;
+}
+.login-form h4{
+	background-color:grey;
+	margin-top:0px;
+	width:100%;
+	padding:2px 2px;
+	padding-left:5px;
+}
+.register-form{
+	padding-left:0px;
+	flex:1;
+	margin-left:10px;
+	background-color:green;
+}
+.register-form h4{
+	background-color:grey;
+	margin-top:0px;
+	padding:2px 2px;
+	padding-left:5px;
+	width:100%;
+}
+.every-form-btn{
+	margin-top:10px;
+	font-weight:bold;
+
+}
+.login-header{
+	color:white;
+	font-weight:bold;
+}
+.bubble-menu{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:50%;
+	padding-left:10px;
+	margin:0 auto;
+}
+.bubble-menu > button{
+	flex:1;
+	margin-left:2px;
+}
+.booking-wrapper{
+	display:none;
+}
+.booking-grid{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+}
+.booking-grid > .category-bar{
+	background-image:linear-gradient(to right, purple,white);
+	flex:1;
+}
+.booking-grid > .book-holder{
+	background-color:purple;
+		padding-left:10px;
+flex:2;
+}
+.booking-grid > .coupon-detail{
+	flex:1;
+    background-color:whitesmoke;
+}
+.book-holder > h4{
+	    margin-top:100px;
+	    color:white;
+}
+.category-bar h4{
+	color:white;
+	font-weight:bold;
+}
+.category-bar > ul > li{
+	background-image:linear-gradient(to right, purple,white);
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	margin-left:0px;
+}
+.gamelist{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+
+}
+.gamelist > li{
+   flex:1;
+   color:white;
+   margin-top:5px;
+}
+.titlelist{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+.titlelist li{
+    flex:1;
+    color:white;
+    font-weight:bold;
+}
+.category-bar > h3{
+	color:white;
+}
+.server-heading{
+	margin-top:0px;
+	padding:0px;
+	background-image:linear-gradient(to right,purple,white);
+	padding-top:4px;
+	padding-bottom:4px;
+
+}
+.ticketarea-text{
+	width:50%;
+	margin-left:5px;
+	vertical-align:top;
+	height:30px;
+}
+.coupon-detail > form > h5{
+	margin-left:5px;
+}
+.betlists{
+	padding:2px 2px;
+	margin-top:5px;
+	height:auto;
+	display:block;
+}
+.betlists > li{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:flex-start;
+	list-style:none;
+	background-color:#333;
+	padding:2px 2px;
+	height:auto;
+	margin-top:2px;
+	width:100%;
+	font-weight:bold;
+	font-size:12px;
+	color:white;
+}
+.betlists >li >span{
+	flex:1;
+}
+.reg-section{
+	margin:0 auto;
+	width:50%;
+	background-color:indigo;
+	border-radius:5px;
+	border:2px solid white;
+	height:auto;
+    padding-bottom:5px;
+	margin-top:100px;
+}
+.reg-section > form{
+	padding-left:5px;
+	padding-right:5px;
+}
+.reg-title{
+	width:100%;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:5px;
+	background-color:white;
+	color:black;
+	font-weight:bold;
+	margin-top:0px;
+}
+.every-reg-btn{
+	font-weight:bold;
+	margin-bottom:4px;
+	margin-top:0px;
+}
+.cancel{
+	font-size:35px;
+	margin-top:0px;
+	margin-left:auto;
+	color:black;
+	cursor:pointer;
+	margin-right:10px;
+	order:2;
+}
+#responserror{
+position:fixed;
+	z-index: 1;
+	background-color:red;
+	border-radius:5px;
+	padding:5px 5px;
+	color:white;
+	font-weight:bold;
+	left:20px;
+	right:20px;
+	text-align:center;
+	display:none;
+}
+.big-cancel-button{
+	font-size:70px;
+    color:red;
+    cursor:pointer;
+    font-weight:bold;
+}
+.login-infos-holder{
+	display:flex;
+	justify-content:flex-start;
+	flex-direction:row;
+	padding:5px 5px;
+	flex-wrap:nowrap;
+}
+.login-infos-holder li{
+	flex:1;
+	list-style:none;
+	margin-left:10px;
+	font-size:15px;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+}
+.login-infos-holder li:hover{
+	background-color:forestgreen;
+	opacity:0.8;
+}
+.site-title{
+color:white;
+margin-right:auto;
+font-size:18px;
+font-weight:bold;
+margin-left:5px;
+margin-top:5px;
+margin-bottom:5px;
+}
+.cancel-res{
+	font-size:40px;
+	color:red;
+	float:left;
+}
+.game-success-response{
+	width:50%;
+	display:none;
+	background-color:white;
+	border-radius:10px;
+	padding:10px 10px;
+	height:200px;
+	left:20px;
+	right:20px;
+	color:black;
+	font-weight:bold;
+	margin:0 auto;
+	position:fixed;
+	z-index:1;
+	top:50%;
+
+}
+
+.bet-calc-holder{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:5px;
+}
+.bet-calc-holder button{
+	flex:1;
+	margin:2px 2px;
+	font-weight:bold;
+}
+.betting-service{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+
+}
+.betting-service button{
+	flex:1;
+}
+.odds-amount > li{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+	margin-top:4px;
+}
+.submit-bet-handler{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+    font-weight:bold;
+
+}
+.cancelevent{
+	width:20px;
+	height:auto;
+	padding:2px 5px;
+	color:red;
+	font-weight:bold;
+	margin-left:auto;
+	text-align:center;
+	cursor:pointer;
+	border-radius:20px;
+}
+#betting-container{
+	padding:0px;
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+	flex-direction:row;
+	align-items:flex-start;
+	margin-top:35px;
+	height:100%;
+}
+#betting-container > .list-infos{
+	height:400px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:200px;
+	border-radius:5px;
+	list-style:none;
+	background-image:linear-gradient(to right, purple,white);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	cursor:pointer;
+	flex-direction:column;
+
+
+}
+.list-infos > li{
+display:block;
+list-style:none;
+flex:1;
+ margin-top:10px;
+ color:white;
+ font-weight:bold;
+}
+.account-info{
+	background-color:purple;
+	flex:2;
+	display:none;
+	margin-top:10px;
+}
+.user-heading-info{
+	background-image:linear-gradient(to right,purple,white);
+	margin-top:0px;
+	box-sizing:border-box;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:5px;
+	padding-left:5px;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+.userdetails{
+	list-style:none;
+	text-align:center;
+	font-size:15px;
+	color:white;
+
+
+
+}
+.userdetails li{
+display:block;
+}
+.circle-img{
+	border-radius:50%;
+	border:2px solid white;
+	width:150px;
+	margin:0 auto;
+	margin-top:20px;
+	height:150px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:10px;
+	padding-top:20px;
+	padding-bottom:5px;
+}
+#flex-home-header{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+
+}
+#flex-home-header > li{
+	color:white;
+	flex:1;
+	list-style:none;
+	margin-top:15px;
+	font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+
+}
+.carousel-holder{
+	width:400px;
+	height:200px;
+}
+.coupon-and-details{
+	background-image:linear-gradient(to left, indigo,green);
+	height:100%;
+	width:250px;
+	position:fixed;
+	top:30px;
+	margin-top:30px;
+	right:0px;
+	box-sizing:border-box;
+	padding-left:4px;
+	padding-right:4px;
+}
+.result-clips{
+	background-color:white;
+	width:80%;
+	margin:0 auto;
+	margin-top:40px;
+	border-radius:10px;
+	height:200px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+
+}
+.register{
+	background:green;
+	opacity:0.8;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	height:100%;
+	width:100%;
+	color:white;
+}
+.site-info{
+	background:white;
+	color:black;
+	width:70%;
+	margin:0 auto;
+	height:800px;
+	color:white;
+    padding-left:0px;
+    padding-right:10px;
+    padding-top:0px;
+    padding-bottom:10px;
+}
+.today-top-hit > .header-text{
+	color:white;
+	font-family:tahoma;
+	background:green;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-left:5px;
+	margin-top:0px;
+}
+.hotlist-label{
+display: flex;
+justify-content:flex-start;
+flex-direction:row;
+list-style:none;
+
+}
+.hotlist-label > li{
+	flex: 1;
+	font-weight:bold;
+	font-family:tahoma;
+}
+.hotlibtn{
+
+}
+.trending{
+	width:80%;
+	padding:5px 5px;
+	margin:0 auto;
+	color:black;
+}
+.events-list{
+	flex-basis:20%;
+	flex-grow:-1;
+	flex-shrink:1;
+	background-image:linear-gradient(to right, indigo,green);
+	box-sizing:border-box;
+	padding-left:4px;
+	padding-right:4px;
+}
+.events-list > ul > li{
+	cursor:pointer;
+	background-image:linear-gradient(to right, indigo,green);
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-top:20px;
+	text-transform:uppercase;
+}
+.mainpageholder{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+	height:100%;
+	color:white;
+
+}
+.content-holder{
+flex-basis:50%;
+	flex-grow:1;
+	flex-shrink:1;
+	background-color:white;
+	color:black;
+}
+.adverts-info{
+display:block;
+flex-basis:25%;
+	flex-grow:1;
+	flex-shrink:1;
+	background-image:linear-gradient(to right, indigo,green);
+	color:black;	
+}
+#headinglist{
+list-style:none;
+padding-top:10px;
+text-align:center;
+}
+#headinglist > li{
+display:inline;
+list-style:none;
+color:white;
+font-weight:bold;
+font-size:18px;
+margin-left:5px;
+}
+.ticketpaper{
+	padding-top:5px;
+	padding-bottom:5px;
+	width:400px;
+	height:100%;
+	border-radius:10px;
+	overflow-y: scroll;
+	border:2px solid white;
+	background:lightgrey;
+	opacity:1;
+	position:fixed;
+	font-weight:400;
+	color:black;
+	font-size:15px;
+	/**box-shadow:5px 5px 10px 5px white; **/
+	left:20px;
+	right:20px;
+	margin:0 auto;
+	margin-top:50px;
+	z-index:1;
+	top:0px;
+	display:none;
+}
+.infohandler{
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+}
+.infohandler > li{
+	margin-top:10px;
+	font-family:tahoma;
+	list-style:none;
+}
+.flex-result{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-result > li{
+	flex: 1;
+	font-weight:bold;
+	font-family:tahoma;
+
+}
+}
+@media screen and (min-width:1224px) {
+	nav{
+	border-radius:none;
+	/*box-shadow:2px 2px 2px black; **/
+	background-image:linear-gradient(to right,indigo,green);
+}
+html body{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-image:linear-gradient(to right, purple,green);
+}
+.super-info-header{
+	background-color:green;
+	max-width:100%;
+	margin-top:50px;
+}
+.reg-container{
+position:fixed;
+background:green;
+opacity:1;
+left:0px;
+z-index:1;
+top:0px;
+display:none;
+right:0px;
+height:100%;
+width:100%;
+padding-top:10px;
+padding-bottom:10px;
+}
+.log-container{
+	position:fixed;
+background:green;
+opacity:1;
+left:0px;
+z-index:1;
+top:0px;
+display:none;
+right:0px;
+height:100%;
+width:100%;
+padding-top:10px;
+padding-bottom:10px;
+}
+.register-box{
+	width:50%;
+	margin:0 auto;
+	margin-top:50px;
+	padding-top:20px;
+}
+#signupid{
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.cancel-signup-btn{
+	font-weight:bold;
+	font-size:50px;
+	float:left;
+	margin-top:50px;
+	color:white;
+	cursor:pointer;
+	margin-left:30px;
+}
+.super-info-header > ul  > li{
+	color:white;
+	cursor:pointer;
+	text-decoration:none;
+}
+.super-info-header > ul > a{
+	text-decoration:none;
+	color:white;
+}
+.super-info-header > ul{
+	padding-left:5px;
+}
+.main-wrapper{
+	display:block;
+}
+.first-container{
+	margin-top:0px;
+	display:flex;
+	padding:0px;
+	margin-left:0px;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	position:relative;
+}
+.long-list{
+	background-image:linear-gradient(to right, indigo,green);
+	height:100%;
+	width:200px;
+	position:fixed;
+	top:30px;
+	margin-top:50px;
+	left:0px;
+	box-sizing:border-box;
+	padding-left:4px;
+	padding-right:4px;
+}
+.long-list > ul > li{
+	cursor:pointer;
+	background-image:linear-gradient(to right, indigo,green);
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-top:20px;
+	text-transform:uppercase;
+}
+.every-form-label{
+	color:white;
+	font-size:13px;
+	margin-left:4px;
+	font-family:helvetica;
+	margin-bottom:0px;
+}
+.form-containers{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:nowrap;
+   padding-top:10px;
+   padding-bottom:10px;
+   width:100%;
+   padding-left:5px;
+   padding-right:5px;
+}
+.login-form{
+	padding-left:0px;
+	background-color:indigo;
+	flex:1;
+	margin-right:10px;
+}
+.login-form h4{
+	background-color:grey;
+	margin-top:0px;
+	width:100%;
+	padding:2px 2px;
+	padding-left:5px;
+}
+.register-form{
+	padding-left:0px;
+	flex:1;
+	margin-left:10px;
+	background-color:green;
+}
+.register-form h4{
+	background-color:grey;
+	margin-top:0px;
+	padding:2px 2px;
+	padding-left:5px;
+	width:100%;
+}
+.every-form-btn{
+	margin-top:10px;
+	font-weight:bold;
+
+}
+.login-header{
+	color:white;
+	font-weight:bold;
+}
+.bubble-menu{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:50%;
+	padding-left:10px;
+	margin:0 auto;
+}
+.bubble-menu > button{
+	flex:1;
+	margin-left:2px;
+}
+.booking-wrapper{
+	display:none;
+}
+.booking-grid{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+}
+.booking-grid > .category-bar{
+	background-image:linear-gradient(to right, purple,white);
+	flex:1;
+}
+.booking-grid > .book-holder{
+	background-color:purple;
+		padding-left:10px;
+flex:2;
+}
+.booking-grid > .coupon-detail{
+	flex:1;
+    background-color:whitesmoke;
+}
+.book-holder > h4{
+	    margin-top:100px;
+	    color:white;
+}
+.category-bar h4{
+	color:white;
+	font-weight:bold;
+}
+.category-bar > ul > li{
+	background-image:linear-gradient(to right, purple,white);
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	margin-left:0px;
+}
+.gamelist{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+
+}
+.gamelist > li{
+   flex:1;
+   color:white;
+   margin-top:5px;
+}
+.titlelist{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+.titlelist li{
+    flex:1;
+    color:white;
+    font-weight:bold;
+}
+.category-bar > h3{
+	color:white;
+}
+.server-heading{
+	margin-top:0px;
+	padding:0px;
+	background-image:linear-gradient(to right,purple,white);
+	padding-top:4px;
+	padding-bottom:4px;
+
+}
+.ticketarea-text{
+	width:50%;
+	margin-left:5px;
+	vertical-align:top;
+	height:30px;
+}
+.coupon-detail > form > h5{
+	margin-left:5px;
+}
+.betlists{
+	padding:2px 2px;
+	margin-top:5px;
+	height:auto;
+	display:block;
+}
+.betlists > li{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:flex-start;
+	list-style:none;
+	background-color:#333;
+	padding:2px 2px;
+	height:auto;
+	margin-top:2px;
+	width:100%;
+	font-weight:bold;
+	font-size:12px;
+	color:white;
+}
+.betlists >li >span{
+	flex:1;
+}
+.reg-section{
+	margin:0 auto;
+	width:50%;
+	background-color:indigo;
+	border-radius:5px;
+	border:2px solid white;
+	height:auto;
+    padding-bottom:5px;
+	margin-top:100px;
+}
+.reg-section > form{
+	padding-left:5px;
+	padding-right:5px;
+}
+.reg-title{
+	width:100%;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:5px;
+	background-color:white;
+	color:black;
+	font-weight:bold;
+	margin-top:0px;
+}
+.every-reg-btn{
+	font-weight:bold;
+	margin-bottom:4px;
+	margin-top:0px;
+}
+.cancel{
+	font-size:35px;
+	margin-top:0px;
+	margin-left:auto;
+	color:black;
+	cursor:pointer;
+	margin-right:10px;
+	order:2;
+}
+#responserror{
+position:fixed;
+	z-index: 1;
+	background-color:red;
+	border-radius:5px;
+	padding:5px 5px;
+	color:white;
+	font-weight:bold;
+	left:20px;
+	right:20px;
+	text-align:center;
+	display:none;
+}
+.big-cancel-button{
+	font-size:70px;
+    color:red;
+    cursor:pointer;
+    font-weight:bold;
+}
+.login-infos-holder{
+	display:flex;
+	justify-content:flex-start;
+	flex-direction:row;
+	padding:5px 5px;
+	text-align:center;
+	flex-wrap:nowrap;
+}
+.login-infos-holder li{
+	flex-grow:1;
+	flex-shrink:0;
+	flex-basis:20px;
+	text-align:center;
+	list-style:none;
+	margin-left:10px;
+	font-size:15px;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+}
+.login-infos-holder .balance{
+margin-left:auto;
+flex-grow:1;
+	flex-shrink:0;
+	flex-basis:40px;
+}
+.login-infos-holder li:hover{
+	background-color:forestgreen;
+	opacity:0.8;
+}
+.site-title{
+color:white;
+margin-right:auto;
+font-size:18px;
+font-weight:bold;
+margin-left:5px;
+margin-top:5px;
+margin-bottom:5px;
+}
+.cancel-res{
+	font-size:40px;
+	color:red;
+	float:left;
+}
+.game-success-response{
+	width:50%;
+	display:none;
+	background-color:white;
+	border-radius:10px;
+	padding:10px 10px;
+	height:200px;
+	left:20px;
+	right:20px;
+	color:black;
+	font-weight:bold;
+	margin:0 auto;
+	position:fixed;
+	z-index:1;
+	top:50%;
+
+}
+#error{
+	display:none;
+	position:fixed;
+	z-index: 1;
+	background-color:red;
+	border-radius:5px;
+	padding:5px 5px;
+	color:white;
+	font-weight:bold;
+	left:20px;
+	right:20px;
+	text-align:center;
+}
+.bet-calc-holder{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:5px;
+}
+.bet-calc-holder button{
+	flex:1;
+	margin:2px 2px;
+	font-weight:bold;
+}
+.betting-service{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+
+}
+.betting-service button{
+	flex:1;
+}
+.odds-amount > li{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+	margin-top:4px;
+}
+.submit-bet-handler{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+    font-weight:bold;
+
+}
+.cancelevent{
+	width:20px;
+	height:auto;
+	padding:2px 5px;
+	color:red;
+	font-weight:bold;
+	margin-left:auto;
+	text-align:center;
+	cursor:pointer;
+	border-radius:20px;
+}
+#betting-container{
+	padding:0px;
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+	flex-direction:row;
+	align-items:flex-start;
+	margin-top:35px;
+	height:100%;
+}
+#betting-container > .list-infos{
+	height:400px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:200px;
+	border-radius:5px;
+	list-style:none;
+	background-image:linear-gradient(to right, purple,white);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	cursor:pointer;
+	flex-direction:column;
+
+
+}
+.list-infos > li{
+display:block;
+list-style:none;
+flex:1;
+ margin-top:10px;
+ color:white;
+ font-weight:bold;
+}
+.account-info{
+	background-color:purple;
+	flex:2;
+	display:none;
+	margin-top:10px;
+}
+.user-heading-info{
+	background-image:linear-gradient(to right,purple,white);
+	margin-top:0px;
+	box-sizing:border-box;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:5px;
+	padding-left:5px;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+.userdetails{
+	list-style:none;
+	text-align:center;
+	font-size:15px;
+	color:white;
+
+
+
+}
+.userdetails li{
+display:block;
+}
+.circle-img{
+	border-radius:50%;
+	border:2px solid white;
+	width:150px;
+	margin:0 auto;
+	margin-top:20px;
+	height:150px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:10px;
+	padding-top:20px;
+	padding-bottom:5px;
+}
+#flex-home-header{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+
+}
+#flex-home-header > li{
+	color:white;
+	flex:1;
+	list-style:none;
+	font-size:15px;
+	margin-top:15px;
+    font-weight:bold;
+    cursor:pointer;
+
+}
+.carousel-holder{
+	width:400px;
+	height:200px;
+}
+.coupon-and-details{
+	background-image:linear-gradient(to left, indigo,green);
+	height:100%;
+	width:250px;
+	position:fixed;
+	top:30px;
+	margin-top:30px;
+	right:0px;
+	box-sizing:border-box;
+	padding-left:4px;
+	padding-right:4px;
+}
+.result-clips{
+	background-color:white;
+	width:80%;
+	margin:0 auto;
+	margin-top:40px;
+	border-radius:10px;
+	height:200px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+
+}
+.register{
+	background:green;
+	opacity:0.8;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	height:100%;
+	width:100%;
+	color:white;
+}
+.site-info{
+	background:white;
+	color:black;
+	width:70%;
+	margin:0 auto;
+	height:800px;
+	color:white;
+    padding-left:0px;
+    padding-right:10px;
+    padding-top:0px;
+    padding-bottom:10px;
+}
+.today-top-hit > .header-text{
+	color:white;
+	font-family:tahoma;
+	background:green;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-left:5px;
+	margin-top:0px;
+}
+.hotlist-label{
+display: flex;
+justify-content:flex-start;
+flex-direction:row;
+
+}
+.hotlist-label > li{
+	flex: 1;
+}
+.hotlibtn{
+
+}
+.trending{
+	width:80%;
+	padding:5px 5px;
+	margin:0 auto;
+	color:black;
+}
+.events-list{
+	flex-basis:20%;
+	flex-grow:-1;
+	flex-shrink:1;
+	background-image:linear-gradient(to right, indigo,green);
+	box-sizing:border-box;
+	padding-left:4px;
+	padding-right:4px;
+}
+.events-list > ul > li{
+	cursor:pointer;
+	background-image:linear-gradient(to right, indigo,green);
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	margin-top:20px;
+	text-transform:uppercase;
+}
+.mainpageholder{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	flex-wrap:nowrap;
+	height:100%;
+	color:white;
+
+}
+.content-holder{
+flex-basis:50%;
+	flex-grow:1;
+	flex-shrink:1;
+	background-color:white;
+	color:black;
+}
+.adverts-info{
+	display:block;
+flex-basis:25%;
+	flex-grow:1;
+	flex-shrink:1;
+	background-image:linear-gradient(to right, indigo,green);
+	color:black;	
+}
+#headinglist{
+list-style:none;
+padding-top:10px;
+text-align:center;
+}
+#headinglist > li{
+display:inline;
+list-style:none;
+color:white;
+font-weight:bold;
+font-size:18px;
+margin-left:5px;
+}
+.ticketpaper{
+	padding-top:5px;
+	padding-bottom:5px;
+	width:400px;
+	height:100%;
+	border-radius:10px;
+	border:2px solid white;
+	background:lightgrey;
+	opacity:1;
+	position:fixed;
+	font-weight:400;
+	color:black;
+	font-size:15px;
+	/** box-shadow:5px 5px 10px 5px white; **/
+	left:20px;
+	right:20px;
+	margin:0 auto;
+	overflow-y: scroll;
+	margin-top:20px;
+	display:none;
+	z-index: 1;
+
+}
+.infohandler > li{
+	margin-top:10px;
+	font-family:tahoma;
+}
+.infohandler{
+	width:100%;
+	height:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+}
+.infohandler > li{
+	list-style:none;
+}
+.fund-account-container{
+	background-color:white;
+	border-radius:5px;
+	color:black;
+}
+.flex-result{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-result > li{
+	flex: 1;
+	font-weight:bold;
+	font-family:tahoma;
+
+}
+.close{
+	color: white;
+	font-weight:bold;
+	font-size: 20px;
+}
+}

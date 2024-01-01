@@ -1,0 +1,6 @@
+CREATE TABLE account_details (
+id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+username text,
+account_balance text
+
+);
